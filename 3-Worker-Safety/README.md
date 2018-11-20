@@ -73,7 +73,7 @@ In this lab your will the following:
       - Project name: your-user-name-worker-safety (example: user-01-01-worker-safety)
    - Under Project content:
       - Click on Add model, click on radio button for deeplens-object-detection and click Add model.
-      - Click on Add function, click on radio  button for 01-01-worker-safety-deeplens lambda function and click Add function.
+      - Click on Add function, click on radio  button for your lambda function (example: user-01-01-worker-safety-deeplens) lambda function and click Add function.
   - Click Create. This returns you to the Projects screen.
 
 ## Deploy DeepLens Project
