@@ -8,10 +8,6 @@ In this lab your will learn the following:
 - Extend DeepLens object detection project to identify people who are not wearing safety hats at construction site.
 - Analyze results using IoT and CloudWatch.
 
-## Architecture
-
-![](3-Worker-Safety/assets/worker-safety-arch.png)
-
 ## Modules
 
 This workshop is broken up into following modules:
