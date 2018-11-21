@@ -102,6 +102,14 @@ Next you will deploy the Object Detection project you just created.
 3. You should now see JSON message with a list of people detected and whether they are wearing safety hats or not.
 4. To view messages coming from DeepLens as it is processing frames, subscribe to topic for your DeepLens device.
 
+## View Output of Your Project in Web Dashboard
+
+1. Go to S3 in AWS Console at https://s3.console.aws.amazon.com/s3/home?region=us-east-1.
+2. Click on the bucket starting with worker-safety-dashboard-XXXXXX
+3. Click on index.html and click on the link to open the web page in browser.
+4. In the address URL append ?iottopic=NAME-OF-YOUR-IOT-TOPIC. This is the same value you added to Lambda environment variable. (example: user-01-01-worker-safety) and hit Enter.
+5. You should now see images coming from DeepLens with a green or red box around the person.
+
 ## View Worker-Safety Alerts in CloudWatch Dashboard
 
 - Go to CloudWatch Console at https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#
