@@ -12,7 +12,7 @@ In this lab your will create and deploy object detection project on DeepLens.
 4. On the Specify project details screen
    - In the Project information section:
       - Project name: your-user-id-object-detection(example: user-01-01-object-detection)
-      - Description: Detect persons not wearing safety hats.
+      - Description: Detect objects.
   - Scroll to the bottom of the screen, then click Create.
 
 This returns you to the Projects screen where the project you just created is listed with your other projects.
