@@ -30,13 +30,16 @@ In this lab your will the following:
   - Role: Choose and existing role
   - Existing role: deeplens-workshop-cloud-lambda-role
   - Click Create function
-5. Download [lambda.zip](./code/lambda.zip).
-6. Under Function code:
+5. Under Environment variables, add a variable:
+  - Key: iot_topic
+  - Value: your-username-01-01-worker-safety (example: user-01-01-worker-safety)
+6. Download [lambda.zip](./code/lambda.zip).
+7. Under Function code:
   - Code entry type: Upload a zip file
   - Under Function package, click Upload and select the zip file you downloaded in earlier step.
   - Click Save.
-7. Under Add triggers, select S3.
-8. Under Configure triggers:
+8. Under Add triggers, select S3.
+9. Under Configure triggers:
   - Bucket: Select the S3 bucket you just created in earlier step.
   - Event type: Leave default Object Created (All)
   - Leave defaults for Prefix and Suffix and make sure Enable trigger checkbox is checked.
