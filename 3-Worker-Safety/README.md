@@ -32,7 +32,7 @@ In this lab your will the following:
   - Click Create function
 5. Under Environment variables, add a variable:
   - Key: iot_topic
-  - Value: your-username-01-01-worker-safety (example: user-01-01-worker-safety)
+  - Value: your-username-01-01-worker-safety-SOME-RANDOM-STRING (example: user-01-01-worker-safety-rEinvent229)
 6. Download [lambda.zip](./code/lambda.zip).
 7. Under Function code:
   - Code entry type: Upload a zip file
@@ -98,7 +98,7 @@ Next you will deploy the Object Detection project you just created.
 ## View Output of Your Project
 
 1. Go to IoT Console at https://console.aws.amazon.com/iot/home?region=us-east-1#/test
-2. Under Subscription topic enter your-username-01-01-worker-safety (example: user-01-01-worker-safety) and click Subscribe to topic.
+2. Under Subscription topic enter topic name you entered as environment variable for Lambda in earlier step (example: user-01-01-worker-safety-rEinvent229) and click Subscribe to topic.
 3. You should now see JSON message with a list of people detected and whether they are wearing safety hats or not.
 4. To view messages coming from DeepLens as it is processing frames, subscribe to topic for your DeepLens device.
 
