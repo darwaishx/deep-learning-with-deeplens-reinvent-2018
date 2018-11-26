@@ -1,6 +1,22 @@
+
 # Create and deploy DeepLens object detection project
 
 In this lab your will create and deploy object detection project on DeepLens.
+
+## Step 0 - Login to AWS DeepLens Device & AWS Account
+
+In this workshop, you have an AWS DeepLens device in front of you connected to a monitor, keyboard, and mouse. AWS DeepLens runs an Ubuntu OS. Login to the device with the password Aws2017!.
+
+We have already pre-registered your devices to workshop accounts. You can find the information for your account on the card in front of you taped to your monitor.
+
+Open a Firefox browser on the left panel. Once Firefox is open, type console.aws.amazon.com into the url bar. (Note: If the login page says "Root user sign in" and there's already an email showing, select Sign in to a different account and then type in your AWS Account number on your card.)
+
+Once your login page shows three fields, please enter the following:
+
+Account ID or alias: the AWS Account number on your card
+IAM user name: the User name on your card
+Password: Aws2017!
+Next, make sure you're in N. Virginia region, and navigate to the DeepLens Dashboard.
 
 ## Create DeepLens Project
 
