@@ -18,6 +18,9 @@ In this lab your will the following:
   - Choose US East (N. Virginia)
   - Click Next.
 4. Leave default values for following steps and on last screen click Create bucket.
+5. Go to bucket you just created and click on Permissions.
+6. Under Public access settings, click Edit
+7. Uncheck all four checkboxes and click Save. NOTE: This step makes objects in your S3 bucket public. We doing this to reduce few steps in the workshop, but you should not do that for production workloads. Instead it is recommended to use S3 Signed URLs to give time limited access to objects in S3.
 
 ### Create Lambda Function
 
