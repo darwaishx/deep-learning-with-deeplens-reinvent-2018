@@ -12,7 +12,7 @@ In this lab your will learn the following:
 
 This workshop is broken up into following modules:
 
-1https://github.com/darwaishx/deep-learning-with-deeplens-reinvent-2018/edit/master/README.md. [Create and Deploy DeepLens Project](1-DeepLens-Project)
+1. https://github.com/darwaishx/deep-learning-with-deeplens-reinvent-2018/edit/master/README.md. [Create and Deploy DeepLens Project](1-DeepLens-Project)
 2. [Worker Safety End to End Solution](3-Worker-Safety)
 3. [Object Detection using Amazon Sage Maker- Optional](2-Object-Detection)
 
