@@ -30,4 +30,5 @@ In this lab your will learn how to train a model to detect objects in Amazon Sag
 4. For "object_detection_image_json_format.ipynb" click Use and then click on Create Copy.
 5. Under Setup, in second cell update bucket = '' with the  name of your S3 bucket you created earlier.
 6. Under Training, in second cell with code change epochs=30 to epochs=1
-6. Run the notebook by following through each cell. To run, you can either use the play button in the toolbar or use keyboard shortcut: ctrl + Enter (windows) or cmd + Enter (Mac).
+7. Under Hosting, change instance_type = 'ml.m4.4xlarge'
+8. Run the notebook by following through each cell. To run, you can either use the play button in the toolbar or use keyboard shortcut: ctrl + Enter (windows) or cmd + Enter (Mac).
