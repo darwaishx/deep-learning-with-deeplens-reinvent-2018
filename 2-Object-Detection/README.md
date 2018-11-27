@@ -18,6 +18,7 @@ In this lab your will learn how to train a model to detect objects in Amazon Sag
 2. Click on Create notebook instance
 3. On the Create notebook instance  screen
   - Enter a name for notebook instance name.
+  - Notebook instance type- ml.C5.xlarge
   - Leave all other default options.
   - Scroll to the bottom of the screen, then click create notebook instance.
 
